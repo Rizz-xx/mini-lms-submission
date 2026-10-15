@@ -1,0 +1,10 @@
+# Mengabaikan file sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Mengabaikan folder penyimpanan file fisik dan metadata lokal
+uploads/*
+!uploads/.gitkeep
+metadata/*
+!metadata/.gitkeep
